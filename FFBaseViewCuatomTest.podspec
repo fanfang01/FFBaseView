@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'LLNetworking'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of LLNetworking.'
+  s.name             = 'FFBaseViewCuatomTest'
+  s.version          = '1.0.1'
+  s.summary          = 'A short description of FFBaseView.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,26 +21,26 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/fanfang01/LLNetworking'
+  s.homepage         = 'https://github.com/fanfang01/FFBaseView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fanfang01' => '375747625@qq.com' }
-  s.source           = { :git => 'https://github.com/fanfang01/LLNetworking.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/fanfang01/FFBaseView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'LLNetworking/Classes/**/*'
+  s.source_files = 'Source/Classes/**/*'
   
   s.resource_bundles = {
-    'LLNetworking' => ['LLNetworking/Assets/*.png']
+    'FFBaseView' => ['Source/Assets/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
  # s.dependency 'AFNetworking', '~> 2.3'
   #远程依赖
-  s.dependency 'testPodTr111', '~> 1.0.0'
+ # s.dependency 'testPodTr111', '~> 1.0.0'
   #再测试下本地依赖
  # s.dependency 'CustomLabelInMayFF', '~> 1.1.4'
 end
